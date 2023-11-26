@@ -25,7 +25,9 @@ const Topbar = () => {
                 height={70}
                 alt='logo'
                 />
+                <h1 className='pt-3 font-sans'>ArchieGramm</h1>
             </Link>
+            
             <div className='flex gap-4 '>
                 <Button variant='ghost' className='shad-button_ghost' onClick={() => signOut()}>
                     <img src="/assets/icons/logout.svg" alt="logout" />
